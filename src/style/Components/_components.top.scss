@@ -1,0 +1,29 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+.c-top-background{
+    height: 980px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+.c-top-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.c-explanation{
+    background-color: rgb(180, 180, 180);
+    padding: 0.5%;
+    width: 20%;
+    margin-left: 1%; 
+    text-align: left;
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
