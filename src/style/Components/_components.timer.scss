@@ -1,0 +1,25 @@
+.c-countdown-timer {
+    height: 400px;
+    background: #dbbd56;
+    padding: 2%;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer div {
+    padding: 0 2% 0 2%;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+
+.timer-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+}

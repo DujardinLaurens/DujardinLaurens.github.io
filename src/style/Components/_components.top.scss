@@ -1,29 +1,52 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
-    height: 100%;
+    padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .c-top-background{
-    height: 980px;
-    background-size: cover;
+    width: 100%;
+    height: 974px;
+    background-image: url("../media/background.png");
+    background-position: center;
     background-repeat: no-repeat;
-    overflow: auto;
+    background-size: cover;
+    position: relative;
 }
 
-.c-top-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+.c-top-background__logo{
+    padding: 4% 0 0 10%;
 }
 
-.c-explanation{
-    background-color: rgb(180, 180, 180);
-    padding: 0.5%;
-    width: 20%;
-    margin-left: 1%; 
-    text-align: left;
-    border-radius: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
+.c-top-background__text {
+    width: 40%;
+    color: white;
+    text-shadow: limegreen 0px 0px 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 1.8em;
 }
+
+
+
+// .c-top-info{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: flex-start;
+// }
+
+// .c-explanation{
+//     background-color: rgb(180, 180, 180);
+//     padding: 0.5%;
+//     width: 20%;
+//     margin-left: 1%; 
+//     text-align: left;
+//     border-radius: 1em;
+//     font-family: Arial, Helvetica, sans-serif;
+//     font-size: 1.2em;
+// }

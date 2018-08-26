@@ -8,27 +8,80 @@
     <title>Rick&Morty-API-CreateIII</title>
 </head>
 <body>
-    <div class="c-top-background">
-        <div class="c-top-info">
-            <h1 class="title">Rick & Morty</h1>
-            <div class="c-explanation">
-                <p>Rick and Morty is een Amerikaanse komische sciencefiction animatieserie uit 2013, gecreëerd door Dan Harmon en Justin Roiland voor Adult Swim.
-                    Roiland verzorgt de stemmen van beide titelpersonages. De serie volgt de bizarre avonturen van de wetenschapper Rick en zijn kleinzoon Morty. 
-                    De serie werd een kijkcijfersucces en een tweede seizoen ging in 2015 van start. 
-                    Op 10 mei 2018 heeft mede-bedenker, Justin Roiland op twitter en instagram aangekondigd dat er nog 70 nieuwe afleveringen komen van de populaire serie Rick and Morty.
-                </p>
+    <div class="c-menu">
+        <ul>
+            <li class="scroll"><a href="#c-top-background">Home</a></li>
+            <li class="scroll"><a href="#c-countdown-timer">Countdown timer</a></li>
+            <li class="scroll"><a href="#c-trailer">Trailer</a></li>
+            <li class="scroll"><a href="#c-character-box">Characters</a></li>
+        </ul>
+    </div>
+    <div class="c-top-background" id="c-top-background">
+        <div class="c-top-background__logo">
+            <img src="media/RickAndMortyLogo.png">
+        </div>
+        <div class="c-top-background__text">
+            <p>
+                    Rick and Morty is an American adult animated science fiction sitcom created by 
+                    Justin Roiland and Dan Harmon for Cartoon Network's late-night programming block Adult Swim.
+            </p>
+            <p>
+                    The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted 
+                    but fretful grandson Morty Smith, who split their time between domestic life and interdimensional 
+                    adventures.
+            </p>
+            <p class="addText">
+            </p>
+            <p class="toggleButton"></p>
+        </div>
+    </div>
+    <div class="c-countdown-timer" id="c-countdown-timer">
+        <div class="timer-title">
+            <h2>Countdown untill Rick and Morty season 4</h2>
+        </div>
+        <div class="timer">
+            <div class="days">
+                <p class="e-days"></p>
+                <p>days</p>
+            </div>
+            <div class="hours">
+                <p class="e-hours"></p>
+                <p>hours</p>
+            </div>
+            <div class="minutes">
+                <p class="e-minutes"></p>
+                <p>mins</p>
+            </div>
+            <div class="seconds">
+                <p class="e-seconds"></p>
+                <p>secs</p>
             </div>
         </div>
     </div>
-    <div class="c-character-box">
-        
-        <div class="paddles">
-            <button class="left-paddle paddle hidden">
-                <
-            </button>
-            <button class="right-paddle paddle">
-                >
-            </button>
+    <div class="c-trailer" id="c-trailer">
+        <div class="trailer-title">
+            <h2>Trailer</h2>
+        </div>
+        <div class="trailer">
+            <iframe class="video" width="1000" height="600" src="https://www.youtube.com/embed/_uUcMwsR5hg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="c-character-box" id="c-character-box">
+        <div class="characters-page1 active-page">
+
+        </div>
+        <div class="characters-page2">
+
+        </div>
+        <div class="characters-page3">
+
+        </div>
+        <div class="c-pagination">
+            <ul class="pages">
+                <li><a href="#c-character-box" class="page1 active">1</a></li>
+                <li><a href="#c-character-box" class="page2">2</a></li>
+                <li><a href="#c-character-box" class="page3">3</a></li>
+            </ul>
         </div>
     </div>
     <script src="script/app.min.js"></script>
