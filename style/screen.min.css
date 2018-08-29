@@ -109,6 +109,27 @@ body {
     align-items: center;
     flex-direction: column; } }
 
+@media screen and (max-width: 480px) {
+  .c-top-background {
+    background-image: none;
+    background-color: #202329; }
+  .c-top-background__logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15% 0 0 0; }
+  .c-top-background__logo img {
+    width: 300px;
+    height: 100px; }
+  .c-top-background__text {
+    width: 75%;
+    margin-left: 13%;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column; } }
+
 .c-character-box {
   background: #202329; }
 
@@ -223,7 +244,7 @@ body {
     width: 300px;
     display: inline-block;
     justify-content: center;
-    margin: 1%;
+    margin: 2.8%;
     border-radius: 10px; } }
 
 @media screen and (max-width: 1200px) {
@@ -231,7 +252,7 @@ body {
     width: 300px;
     display: inline-block;
     justify-content: center;
-    margin: 1.8% 8.2% 1.8% 8.2%;
+    margin: 1.8% 7.5% 1.8% 7.5%;
     border-radius: 10px; } }
 
 @media screen and (max-width: 992px) {
@@ -239,7 +260,7 @@ body {
     width: 300px;
     display: inline-block;
     justify-content: center;
-    margin: 1.8% 4.8% 1.8% 4.8%;
+    margin: 1.8% 3.8% 1.8% 3.8%;
     border-radius: 10px; } }
 
 @media screen and (max-width: 768px) {
@@ -285,6 +306,13 @@ body {
   .c-trailer {
     height: 650px; } }
 
+@media screen and (max-width: 480px) {
+  .video {
+    width: 400px;
+    height: 300px; }
+  .c-trailer {
+    height: 500px; } }
+
 .c-menu ul {
   width: 100%;
   list-style-type: none;
@@ -312,14 +340,6 @@ body {
 
 .c-menu li a:hover {
   background-color: #111; }
-
-@media screen and (max-width: 1500px) {
-  .character-info {
-    width: 300px;
-    display: inline-block;
-    justify-content: center;
-    margin: 3.2%;
-    border-radius: 10px; } }
 
 @media screen and (max-width: 1200px) {
   .c-menu ul {
@@ -406,6 +426,26 @@ body {
   .timer div {
     font-size: 2em; } }
 
+@media screen and (max-width: 768px) {
+  .c-countdown-timer {
+    height: 325px; }
+  .timer-title {
+    font-size: 1em; }
+  .timer-date {
+    font-size: 1em; }
+  .timer div {
+    font-size: 1.8em; } }
+
+@media screen and (max-width: 480px) {
+  .c-countdown-timer {
+    height: 300px; }
+  .timer-title {
+    font-size: 0.9em; }
+  .timer-date {
+    font-size: 0.9em; }
+  .timer div {
+    font-size: 1.6em; } }
+
 .footer {
   height: 100px;
   background: #202329;
@@ -436,3 +476,10 @@ body {
     width: 25px; }
   .copyright p {
     font-size: 0.8em; } }
+
+
+@media screen and (max-width: 480px) {
+  .logos img {
+    width: 25px; }
+  .copyright p {
+    font-size: 0.7em; } }
