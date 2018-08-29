@@ -1,0 +1,43 @@
+.footer {
+    height: 100px;
+    background: rgb(32, 35, 41);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logos img {
+    width: 35px;
+}
+
+.logos a {
+    margin: 5px;
+}
+
+.copyright {
+    color: lightgray;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+@media screen and (max-width: 1200px){
+    .logos img {
+        width: 30px;
+    }
+
+    .copyright p {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .logos img {
+        width: 25px;
+    }
+
+    .copyright p {
+        font-size: 0.8em;
+    }
+}

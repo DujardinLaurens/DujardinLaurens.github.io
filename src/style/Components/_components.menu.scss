@@ -26,7 +26,34 @@
     font-size: 1.2em;
 }
 
-/* Change the link color to #111 (black) on hover */
 .c-menu li a:hover {
     background-color: #111;
+}
+
+@media screen and (max-width: 1500px){
+    .character-info{
+        width: 300px;
+        display: inline-block;
+        justify-content: center;
+        margin: 3.2%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .c-menu ul {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .c-menu ul {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .c-menu ul {
+        width: 100%;
+    }
 }

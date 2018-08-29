@@ -6,6 +6,7 @@
     width: 75%;
     margin: 0 auto;
     padding-top: 2%;
+    display: none;
 }
 
 .characters-page2{
@@ -22,6 +23,10 @@
     display: none;
 }
 
+.c-character-box .active-page {
+    display: block;
+}
+
 .character-info{
     width: 300px;
     display: inline-block;
@@ -33,6 +38,7 @@
 .character-info__body{
     visibility: hidden;
     width: 100%;
+    font-size: 1.2em;
 }
 
 .character-info div{
@@ -43,7 +49,7 @@
 }
 
 .character-info:hover {
-    background-color: rgb(63, 63, 63);
+    box-shadow: limegreen 0 0 20px;
     height: 100%;
     .character-info__body{
         visibility: initial;
@@ -101,6 +107,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .pages a {
@@ -119,3 +126,43 @@
 .pages a:hover:not(.active) {
     background: grey;
 }
+
+@media screen and (max-width: 1500px){
+    .character-info{
+        width: 300px;
+        display: inline-block;
+        justify-content: center;
+        margin: 3.2%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .character-info{
+        width: 300px;
+        display: inline-block;
+        justify-content: center;
+        margin: 1.8% 8.2% 1.8% 8.2%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .character-info{
+        width: 300px;
+        display: inline-block;
+        justify-content: center;
+        margin: 1.8% 4.8% 1.8% 4.8%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .character-info{
+        width: 300px;
+        display: inline-block;
+        margin: 1.8% 23.5% 1.8% 23.5%;
+        border-radius: 10px;
+    }
+}
+
